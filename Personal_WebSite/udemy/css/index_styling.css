@@ -1,0 +1,7 @@
+.promptContainer {
+    background-color: rgb(160, 211, 240);
+    width: 200px;
+    height: 200px;
+    border: 10px solid black;
+    padding: 20px;
+}
