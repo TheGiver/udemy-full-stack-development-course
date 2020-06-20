@@ -13,12 +13,14 @@ hr {
 
 .mainContainer {
     /* Add a background image to the main container */
-    background-image: url("../resources/Background_Images/index_page/index_main_image.jpg");
+    /*background-image: url("../resources/Background_Images/index_page/index_main_image.jpg"); */
+    background-image: url("../resources/Background_Images/index_page/E5F056FB-27A4-48F2-9E0E-DDBB75A6B044.jpeg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
 
     /* Change the height of this division */
     height: 100vh;
+    width: 100%;
 
     /* Control font size and style of any text inside this <div> */
     font-size: 24px;
@@ -35,10 +37,11 @@ hr {
     display: inline-block;
 
     /* Change the margin such that we place the element at the bottom */
-    bottom: 200px;
+    top: 50px;
+    left: 1000px;
 
     /* Change the color of the text to white */
-    color: white;
+    color: black;
 }
 
 .navigationBar {
