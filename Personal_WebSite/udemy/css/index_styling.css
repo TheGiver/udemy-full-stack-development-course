@@ -41,7 +41,7 @@ hr {
 
     /* Control font size and style of any text inside this <div> */
     font-size: 40px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .mainContainerIntroduction {
     /* Change the padding of this element */
@@ -63,7 +63,7 @@ hr {
 
     /* Control font size and style of any text inside this <div> */
     font-size: 24px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Montserrat', sans-serif;
 }
 
 .navigationBar {
