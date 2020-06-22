@@ -181,6 +181,8 @@ h3 {
 .hobbiesContainer {
     /* Center all elements in the middle */
     text-align: center;
+
+    background-color: rgb(245, 253, 214);
 }
 
 /************************************************************************************************************************/
