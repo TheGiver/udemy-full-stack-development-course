@@ -116,24 +116,16 @@ hr {
 .finalContainer {
     /* Center all the elements in this division */
     text-align: center;
+
+    /* Add a background color if suitable */
+    background-color: rgb(219, 219, 223);
 }
 .finalContainerTitle {
-    /* Set the text size, position and font */
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
 
 }
 .finalContainerIcon {
-    /* Center the icon in the middle and reduce its size */
-    text-align: center;
-    display: inline-block;
-    width: 350px;
-    height: 350px;
-    left: 500px;
-
     /* Add a black/gray background */
-    background-color: rgb(164, 222, 226);
+    background-color: rgb(247, 214, 144);
 
     /* Make the icon circular */
     border-radius: 40%;
@@ -154,4 +146,43 @@ hr {
     /* Add margin to space out the icons */
     margin-left: 5cm;
     margin-right: 5cm;
+}
+.finalContainerCopyright {
+    /* Change the font size */
+    font-size: 10px;
+}
+
+.sectionTitle {
+    /* Adding font specifications for every section's title */
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+.sectionIcon {
+    /* Center the icon in the middle and reduce its size */
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    left: 500px;
+}
+
+.hobbiesContainer {
+    /* Center all elements in the middle */
+    text-align: center;
+}
+
+.skillsContainer {
+    /* Center all elements in the middle */
+    text-align: center;
+}
+
+.educationContainer {
+    /* Center all elements in the middle */
+    text-align: center;
+}
+
+.jobContainer {
+    /* Center all elements in the middle */
+    text-align: center;
 }
