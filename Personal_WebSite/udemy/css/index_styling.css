@@ -10,6 +10,11 @@ hr {
     height: 2px;
     background: black;
 }
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/************************************************************************************************************************/
 
 .mainContainer {
     /* Add a background image to the main container */
@@ -152,12 +157,16 @@ hr {
     font-size: 10px;
 }
 
+/************************************************************************************************************************/
+
 .sectionTitle {
     /* Adding font specifications for every section's title */
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
 }
+
+/************************************************************************************************************************/
 
 .sectionIcon {
     /* Center the icon in the middle and reduce its size */
@@ -167,22 +176,67 @@ hr {
     left: 500px;
 }
 
+/************************************************************************************************************************/
+
 .hobbiesContainer {
     /* Center all elements in the middle */
     text-align: center;
 }
+
+/************************************************************************************************************************/
 
 .skillsContainer {
     /* Center all elements in the middle */
     text-align: center;
 }
 
+/************************************************************************************************************************/
+
 .educationContainer {
-    /* Center all elements in the middle */
-    text-align: center;
+    background-color: rgb(248, 239, 213);
 }
+.logo {
+    /* Push the image to the left */
+    left: 50px;
+
+    /* Standardizing the size of the logo */
+    height: 300px;
+    width: 450px;
+}
+.briefDescription {
+    display: inline-block;
+    position: absolute;
+
+    /* Add a space between the logo element and this element */
+    margin-left: 10px;
+    
+}
+
+/************************************************************************************************************************/
 
 .jobContainer {
     /* Center all elements in the middle */
     text-align: center;
+}
+
+/************************************************************************************************************************/
+
+.certificatesContainer {
+    /* Center all elements in the middle */
+    text-align: center;
+}
+
+/************************************************************************************************************************/
+
+.internalSeparator {
+    border-top: 1px solid black;
+
+    /* Control the length of the separator from both sides */
+    width: 800px;
+    position: relative;
+    left: 350px;
+
+    /* Add margin on the top and bottom side */
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
