@@ -7,7 +7,7 @@ body {
 }
 hr {
     border: none;
-    height: 5px;
+    height: 2px;
     background: black;
 }
 
@@ -111,4 +111,47 @@ hr {
 .navigationBar::-webkit-scrollbar {
     background-color: black;
     color: white;
+}
+
+.finalContainer {
+    /* Center all the elements in this division */
+    text-align: center;
+}
+.finalContainerTitle {
+    /* Set the text size, position and font */
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+
+}
+.finalContainerIcon {
+    /* Center the icon in the middle and reduce its size */
+    text-align: center;
+    display: inline-block;
+    width: 350px;
+    height: 350px;
+    left: 500px;
+
+    /* Add a black/gray background */
+    background-color: rgb(164, 222, 226);
+
+    /* Make the icon circular */
+    border-radius: 40%;
+}
+.finalContainerAttributionSection {
+    /* Change the font size */
+    font-size: 10px;
+}
+.paragraph {
+    /* Change the font family for all paragraphs */
+    font-family: 'Montserrat', sans-serif;
+}
+.socialMediaIcon {
+    /* Set the size of all icons to be used */
+    width: 50px;
+    height: 50px;
+
+    /* Add margin to space out the icons */
+    margin-left: 5cm;
+    margin-right: 5cm;
 }
