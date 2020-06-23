@@ -249,3 +249,11 @@ h3 {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+/************************************************************************************************************************/
+
+.description {
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16pt;
+}

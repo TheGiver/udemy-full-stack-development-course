@@ -1,0 +1,61 @@
+body {
+   margin: 0; 
+}
+
+/************************************************************************************************************************/
+
+.navigationBar {
+    position: fixed;
+    background-color: whitesmoke;
+    width: 100%;
+    display: block;
+
+    /* Add border to this div */
+    border-top: 0px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+.navigationBarList {
+    /* Remove any list styling */
+    list-style-type: none;
+}
+.navigationBarListItem {
+    /* Make each list item take the amount of space it needs only, not more and not less */
+    display: inline-block;
+}
+.navigationBarListItem a {
+    /* Change the text font */
+    font-family: sans-serif;
+
+    /* Remove the underline and the blue link from the text */
+    text-decoration: none;
+
+    /* Change the display to block */
+    display: block;
+
+    /* Change the color of the text */
+    color: black;
+
+    /* Add a left/right margin */
+    margin-left: 7cm;
+
+    /* Increase font size */
+    font-size: 20pt;
+}
+.navigationBarListItem:hover a {
+    color: rgb(3, 19, 236);
+}
+.navigationBar::-webkit-scrollbar {
+    background-color: black;
+    color: white;
+}
+
+/************************************************************************************************************************/
+
+.underConstruction {
+    padding-top: 1cm;
+    text-align: center;
+}
+
+/************************************************************************************************************************/
