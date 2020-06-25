@@ -14,10 +14,30 @@
             </ul>
         </div>
 
-        <div class="underConstruction">
-            <!-- add a construction image and write under construction -->
-            <img src="../resources/Background_Images/index_page/hammer.png" alt="construction icon">
-            <h1>UNDER CONSTRUCTION! APOLOGIES FOR THE INCONVENIENCE</h1>
+        <!-- Add a contact me form -->
+        <div class="contactMeContainer">
+            <!-- add ability to add full name, email and subject, comment and submit -->
+            <form action="post">
+                <!-- place the first 3 inputs on the left hand side -->
+                <div class="leftSideContactMeContainer">
+                    <input type="text" placeholder="Full-Name" class="nameContactMeContainer">
+                    <br>
+                    <input type="text" placeholder="Email Address" class="emailContactMeContainer">
+                    <br>
+                    <input type="text" placeholder="Subject" class="subjectContactMeContainer">
+                </div>
+
+                <!-- place the comment section on the right hand side -->
+                <div class="rightSideContactMeContainer">
+                    <textarea name="Comments" class="comentContactMeContainer" id="comments-ContactMeID" cols="40" rows="20"></textarea>
+                </div>
+            
+                <!-- place the submit button on the bottom of all of this -->
+                <div class="submitContactMeContainer">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
         </div>
+        
     </body>
 </html>

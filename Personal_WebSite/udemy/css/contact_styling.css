@@ -52,10 +52,22 @@ body {
  }
  
  /************************************************************************************************************************/
- 
- .underConstruction {
-     padding-top: 1cm;
-     text-align: center;
+
+ .contactFormContainer {
+    position: absolute;
+    top: 50cm;
+
  }
- 
+ .leftSideContactMeContainer {
+     position: relative;
+     display: inline-block;
+     top: 5cm;
+     width: 50%;
+ }
+ rightSideContactMeContainer {
+     position: relative;
+     display: inline-block;
+     right: 0px;
+ }
+
  /************************************************************************************************************************/
