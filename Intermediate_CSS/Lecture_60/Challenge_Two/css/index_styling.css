@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    text-align: center;
 }
 
 /************************************************************************************************************************/
@@ -10,20 +11,7 @@ h1 {
 
 /************************************************************************************************************************/
 
-h2 {
-    text-align: center;
-}
-
-/************************************************************************************************************************/
-
-h3 {
-    text-align: center;
-}
-
-/************************************************************************************************************************/
-
 .top-container {
-    text-align: center;
     background-color: rgb(188, 227, 240);
     position: relative;
 }
@@ -35,21 +23,6 @@ h3 {
     position: relative;
     left: 300px;
     padding-top: 40px;
-}
-
-/************************************************************************************************************************/
-
-.bottom-container {
-    text-align: center;
-}
-
-/************************************************************************************************************************/
-
-.middle-container .profile {
-    text-align: center;
-}
-.contact-me {
-    text-align: center;
 }
 
 /************************************************************************************************************************/
@@ -70,22 +43,21 @@ h3 {
     Setting the margin as auto will create equal spacing between the element and other 
     elements.
     */
-    margin: 100px auto 100px auto;
-}
-.skill-row-image {
-    width: 25%;
-    float:left;
-}
-.skill-row-image-title-container {
-    text-align: center;
-}
-.skill-row-paragraph-container {
-    text-align:left;
-    line-height: 2;
-}
+    margin: 150px auto 150px auto;
 
-/************************************************************************************************************************/
-
-.skill-row-paragraph-container {
+    /* Change the alignment of the text for each skill-row */
     text-align: left;
+}
+.skill-row-image-1 {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.skill-row-image-2 {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.skill-row-paragraph {
+    clear: both;
 }
