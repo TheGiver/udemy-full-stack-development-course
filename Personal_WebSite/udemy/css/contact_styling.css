@@ -53,21 +53,33 @@ body {
  
  /************************************************************************************************************************/
 
- .contactFormContainer {
+.contactMeContainer {
+    position: relative;
+    width: 100%;
+}
+.contactMeFormContainer {
     position: absolute;
-    top: 50cm;
+    margin-top: 80px;
+}
+.leftSideContactMeContainer {
+    display: inline-block;
+}
+.rightSideContactMeContainer {
+    /* Move the container to the right side of the left container */
+    display: inline-block;
+    margin-right: 0;
 
- }
- .leftSideContactMeContainer {
-     position: relative;
-     display: inline-block;
-     top: 5cm;
-     width: 50%;
- }
- rightSideContactMeContainer {
-     position: relative;
-     display: inline-block;
-     right: 0px;
- }
+    /* Move the container to the right to create space between the text fields and the big comment box */
+    margin-left: 100px;
+
+}
+.leftSide {
+    /* Add equal spacing between the elements of leftSide class */
+    margin: 50px auto 70px auto;
+}
+.contactMeContainerTitle {
+    margin-top: 70px;
+    font-size: 30pt;
+}
 
  /************************************************************************************************************************/

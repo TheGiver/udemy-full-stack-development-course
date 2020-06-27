@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Personal Blog</title>
-        <link rel="stylesheet" href="../css/blog_styling.css">
+        <link rel="stylesheet" href="../css/contact_styling.css">
     </head>
     <body>
         <!-- Add a navigation section -->
@@ -13,18 +13,22 @@
                 <li class="navigationBarListItem"><a href="#">CONTACT ME</a></li>
             </ul>
         </div>
-
+        <hr>
         <!-- Add a contact me form -->
         <div class="contactMeContainer">
+            <!-- Add a paragraph that will enable us to explain the importance of feedback to me as a blogger -->
+            <h1 class="contactMeContainerTitle">YOUR VOICE IS IMPORTANT</h1>
+            <p class="importanceOfFeedbackParagraph"></p>
+
             <!-- add ability to add full name, email and subject, comment and submit -->
-            <form action="post">
+            <form class="contactMeFormContainer" action="post">
                 <!-- place the first 3 inputs on the left hand side -->
                 <div class="leftSideContactMeContainer">
-                    <input type="text" placeholder="Full-Name" class="nameContactMeContainer">
+                    <input type="text" placeholder="Full-Name" class="nameContactMeContainer leftSide">
                     <br>
-                    <input type="text" placeholder="Email Address" class="emailContactMeContainer">
+                    <input type="text" placeholder="Email Address" class="emailContactMeContainer leftSide">
                     <br>
-                    <input type="text" placeholder="Subject" class="subjectContactMeContainer">
+                    <input type="text" placeholder="Subject" class="subjectContactMeContainer leftSide">
                 </div>
 
                 <!-- place the comment section on the right hand side -->
@@ -38,6 +42,5 @@
                 </div>
             </form>
         </div>
-        
     </body>
 </html>
