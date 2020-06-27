@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+/************************************************************************************************************************/
+
+h1 {
+    margin-top: 0;
+}
+
+/************************************************************************************************************************/
+
+hr {
+    width: 50px;
+    border-top: 6px dotted #bbbebe;
+
+    /* Add a margin to the top and bottom */
+    margin: 150px auto 150px auto; 
+}
+
+/************************************************************************************************************************/
+
+.top-container {
+    background-color:  #EAF6F6;
+    position: relative;
+    color: #66BFBF;
+}
+.bottomCloudImage {
+    display: inline-block;
+    position: absolute;
+}
+.topCloudImage {
+    position: relative;
+    left: 300px;
+    padding-top: 40px;
+}
+.top-container-title {
+    /* Setting the font family and font size of the title 'I'm Angela' */
+    font-family: 'Niconne', cursive;
+    font-size: 60pt;
+}
+.top-container-paragraph { 
+    /* Setting the font family and font size of the paragraph that says 'A Programmer' */
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+}
+.top-container-paragraph-span {
+    text-decoration: underline;
+}
+
+/************************************************************************************************************************/
+
+.skill-row {
+    /* Change the display of the screen to inline-block to set the width to 50% 
+    (This is my method)
+    display: inline-block;
+    width: 50%;
+    */
+
+    /* The lecturer's method */
+    /* Since the div is already a block div, we can just set the width to 50% */
+    width: 50%;
+
+    /* 
+    If we want to center the div, then we can just play around with the margin.
+    Setting the margin as auto will create equal spacing between the element and other 
+    elements.
+    */
+    margin: 150px auto 150px auto;
+
+    /* Change the alignment of the text for each skill-row */
+    text-align: left;
+}
+.skill-row-image-1 {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.skill-row-image-2 {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.skill-row-paragraph {
+    clear: both;
+}
