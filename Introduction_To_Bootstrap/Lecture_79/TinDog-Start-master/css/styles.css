@@ -1,0 +1,46 @@
+#title {
+    background-color: #ff4c68;
+}
+
+/****************************************************************************************************************/
+
+.container-fluid {
+    padding: 5% 13% 0% 13%;
+}
+
+/****************************************************************************************************************/
+
+.nav-brand {
+    /* Change the font color of the brand */
+    color: white;
+
+    /* Change the font family and size of the brand */
+    font-size: 2.0rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/****************************************************************************************************************/
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    size: 3rem;
+    line-height: 1.5;
+    font-weight:700;
+    color: white;
+}
+
+/****************************************************************************************************************/
+
+.titleSectionRowContainer {
+    /* Add a margin top to add space between this element and its sibling */
+    margin-top: 5%;
+}
+
+/****************************************************************************************************************/
+
+.titleSectionRowContainerImage {
+    transform: rotate(20deg);
+    height: 40%;
+    width: 25%;
+    margin-bottom: 0;
+}
