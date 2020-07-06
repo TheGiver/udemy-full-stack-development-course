@@ -62,13 +62,18 @@ h1 {
 
 /******************************************************************************************************/
 
+#features {
+    font-family: 'Montserrat', sans-serif;
+    padding: 7% 13%;
+}
+
 .row {
     margin: 100px 50px 100px 50px;
 }
 
 .features-container {
     text-align: center;
-    width: 250px;
+    padding: 3%;
 }
 
 .feature-icon {
@@ -81,10 +86,8 @@ h1 {
 }
 
 .feature {
-    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 1.5rem;
-
 }
 
 .feature-paragraph {
