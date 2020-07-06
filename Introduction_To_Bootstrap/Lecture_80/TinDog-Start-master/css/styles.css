@@ -59,3 +59,34 @@ h1 {
 /******************************************************************************************************/
 
 /* Styling the navigation bar elements */
+
+/******************************************************************************************************/
+
+.row {
+    margin: 100px 50px 100px 50px;
+}
+
+.features-container {
+    text-align: center;
+    width: 250px;
+}
+
+.feature-icon {
+    color: #ef8172;
+    margin-bottom: 20px;
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+}
+
+.feature {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+
+.feature-paragraph {
+    color: #8f8f8f;
+}
