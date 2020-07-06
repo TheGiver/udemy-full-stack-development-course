@@ -97,10 +97,13 @@ h1 {
 /******************************************************************************************************/
 
 #testimonials {
-    padding: 7% 13%;
     text-align: center;
     background-color: #ef8172;
     color: white;
+}
+
+.carousel-item {
+    padding: 7% 13%;
 }
 
 .testimonial-image {
