@@ -1,85 +1,71 @@
 body {
     margin: 0; 
- }
- 
- /************************************************************************************************************************/
- 
- .navigationBar {
-     position: fixed;
-     background-color: whitesmoke;
-     width: 100%;
-     display: block;
- 
-     /* Add border to this div */
-     border-top: 0px solid black;
-     border-bottom: 3px solid black;
-     border-left: 3px solid black;
-     border-right: 3px solid black;
- }
- .navigationBarList {
-     /* Remove any list styling */
-     list-style-type: none;
- }
- .navigationBarListItem {
-     /* Make each list item take the amount of space it needs only, not more and not less */
-     display: inline-block;
- }
- .navigationBarListItem a {
-     /* Change the text font */
-     font-family: sans-serif;
- 
-     /* Remove the underline and the blue link from the text */
-     text-decoration: none;
- 
-     /* Change the display to block */
-     display: block;
- 
-     /* Change the color of the text */
-     color: black;
- 
-     /* Add a left/right margin */
-     margin-left: 7cm;
- 
-     /* Increase font size */
-     font-size: 20pt;
- }
- .navigationBarListItem:hover a {
-     color: rgb(3, 19, 236);
- }
- .navigationBar::-webkit-scrollbar {
-     background-color: black;
-     color: white;
+    background-color: #ff4c68;
+    padding: 5% 10%;
  }
  
  /************************************************************************************************************************/
 
-.contactMeContainer {
-    position: relative;
-    width: 100%;
-}
-.contactMeFormContainer {
-    position: absolute;
-    margin-top: 80px;
-}
-.leftSideContactMeContainer {
-    display: inline-block;
-}
-.rightSideContactMeContainer {
-    /* Move the container to the right side of the left container */
-    display: inline-block;
-    margin-right: 0;
-
-    /* Move the container to the right to create space between the text fields and the big comment box */
-    margin-left: 100px;
-
-}
-.leftSide {
-    /* Add equal spacing between the elements of leftSide class */
-    margin: 50px auto 70px auto;
-}
-.contactMeContainerTitle {
-    margin-top: 70px;
-    font-size: 30pt;
+.navbar {
+    margin-bottom: 3%;
+    background-color: #ff4c68;
 }
 
- /************************************************************************************************************************/
+.navbar-nav {
+    padding: 0px 20px;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 2.0rem;
+}
+
+.nav-item {
+    padding: 0px 20px;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+}
+
+/************************************************************************************************************************/
+
+.contact-me-header {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.contact-me-paragraph {
+    font-family: 'Montserrat';
+}
+
+.speech-bubble {
+	position: relative;
+	background: #c3f4f8;
+    border-radius: .4em;
+    margin-bottom: 7%;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #c3f4f8;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -10px;
+	margin-bottom: -20px;
+}
+
+.row {
+    background-color: white;
+    height: 200px;;
+}
+
+/************************************************************************************************************************/

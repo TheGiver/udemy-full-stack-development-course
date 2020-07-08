@@ -2,45 +2,52 @@
 <html>
     <head>
         <title>Personal Blog</title>
+
+        <!-- Linking bootstrap library -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+        <!-- Linking the needed css file -->
         <link rel="stylesheet" href="../css/contact_styling.css">
+
+        <!-- Adding the needed scripts to make some basic functions work -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <!-- Adding additional fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
     </head>
     <body>
         <!-- Add a navigation section -->
-        <div class="navigationBar">
-            <ul class="navigationBarList">
-                <li class="navigationBarListItem"><a href="./index.html">HOME</a></li>
-                <li class="navigationBarListItem"><a href="./blog.html">BLOG</a></li>
-                <li class="navigationBarListItem"><a href="#">CONTACT ME</a></li>
-            </ul>
+        <div class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">HACK IN STYLE</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="../html/index.html"> Home </a></li>
+                    <li class="nav-item"><a class="nav-link" href="../html/blog.html"> Blog </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"> Contact Us </a></li>
+                </ul>
+            </div>
         </div>
-        <hr>
+        
         <!-- Add a contact me form -->
-        <div class="contactMeContainer">
-            <!-- Add a paragraph that will enable us to explain the importance of feedback to me as a blogger -->
-            <h1 class="contactMeContainerTitle">YOUR VOICE IS IMPORTANT</h1>
-            <p class="importanceOfFeedbackParagraph"></p>
-
-            <!-- add ability to add full name, email and subject, comment and submit -->
-            <form class="contactMeFormContainer" action="post">
-                <!-- place the first 3 inputs on the left hand side -->
-                <div class="leftSideContactMeContainer">
-                    <input type="text" placeholder="Full-Name" class="nameContactMeContainer leftSide">
-                    <br>
-                    <input type="text" placeholder="Email Address" class="emailContactMeContainer leftSide">
-                    <br>
-                    <input type="text" placeholder="Subject" class="subjectContactMeContainer leftSide">
-                </div>
-
-                <!-- place the comment section on the right hand side -->
-                <div class="rightSideContactMeContainer">
-                    <textarea name="Comments" class="comentContactMeContainer" id="comments-ContactMeID" cols="40" rows="20"></textarea>
-                </div>
+        <div class="contact-me-container container">
+            <div class="speech-bubble">
+                <h2 class="contact-me-header">YOUR VOICE MATTERS</h2>
+                <p class="contact-me-paragraph">TO DO LATER</p>
+            </div>
             
-                <!-- place the submit button on the bottom of all of this -->
-                <div class="submitContactMeContainer">
-                    <input type="submit" value="Submit">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6 ">
+                    <form action="" method="post">
+
+                    </form>
                 </div>
-            </form>
+            </div>
         </div>
     </body>
 </html>
