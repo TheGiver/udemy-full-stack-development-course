@@ -2,27 +2,50 @@
 <html>
     <head>
         <title>Hack In Style With Faysal AL-Kharaz</title>
+
+         <!-- Linking bootstrap library -->
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+        <!-- Link css document -->
         <link rel="stylesheet" href="../css/index_styling.css">
+
+        <!-- Adding the needed scripts to make some basic functions work -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <!-- Link icons website -->
         <link rel="icon" href="../resources/favicon/favicon.ico">
+
+        <!-- Link various fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300&family=Montserrat&family=Piedra&family=Sacramento&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+
     </head>
     <body>
         <!-- Add a division that displays a navigation menu -->
-        <div class="navigationBar">
-            <ul class="navigationBarList">
-                <li class="navigationBarListItem"><a href="#">HOME</a></li>
-                <li class="navigationBarListItem"><a href="./blog.html">BLOG</a></li>
-                <li class="navigationBarListItem"><a href="./contact.html">CONTACT ME</a></li>
-            </ul>
+        <div class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">HACK IN STYLE</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#"> Home </a></li>
+                    <li class="nav-item"><a class="nav-link" href="../html/blog.html"> Blog </a></li>
+                    <li class="nav-item"><a class="nav-link" href="../html/contact.html"> Contact Us </a></li>
+                </ul>
+            </div>
         </div>
 
         <!-- Add a division that shows the very first screen that the user will see -->
-        <div class="mainContainer">
+        <div class="main-container">
             <!-- Add the website title  -->
-            <h1 class="mainContainerPrompt"> &#60\HACK IN STYLE&#62 </h1>
+            <h1 class="main-container-prompt"> &#60\HACK IN STYLE&#62 </h1>
 
             <!-- Add an introductory paragraph -->
-            <span class="mainContainerIntroduction">Hello There!
+            <span class="main-container-introduction">Hello There!
                 My name is Faysal Al-Kharraz, I am a software engineer who has interest in various computer 
                 science related fields and has a passion for various other field such as sports, health and 
                 fitness and similar topics. 
@@ -40,46 +63,30 @@
         <!-- Add a horizontal rule -->
         <hr> 
 
-        <!-- Add a division that will store all information about me in general 
-        <div class="aboutMeContainer">
-            <h2 class="aboutMeContainerTitle sectionTitle">About Me</h2>
-            <p>dsads</p>
-            <p>dsads</p>
-            <p>dsads</p>
-            <p>dsads</p>
-            <p>dsads</p>
-            <p>dsads</p>
-            <p>dsads</p>
-            <p>dsads</p>
-            <p>dsads</p>
-            <p>dsads</p>
-        </div>
-        -->
-
         <!-- Add a div that will mention my job experiences -->
-        <div class="jobContainer">
-            <h2 class="jobContainerTitle sectionTitle"> Job Experiences</h2>
+        <div class="job-container">
+            <h2 class="job-container-title section-title"> Job Experiences</h2>
 
             <!-- Mention ProgressSoft -->
-            <img class="jobContainerIcon sectionIcon" src="../resources/Background_Images/index_page/ProgressSoft_Logo.jpg" alt="ProgressSoft Logo">
+            <img class="job-container-icon section-icon" src="../resources/Background_Images/index_page/ProgressSoft_Logo.jpg" alt="ProgressSoft Logo">
             <h3>Information Security Engineer, ProgressSoft, Amman, Jordan</h3>
 
             <!-- Add a separator -->
-            <div class="internalSeparator"></div>
+            <div class="internal-separator"></div>
 
             <!-- Mention Pioneers Academy -->
-            <img class="jobContainerIcon sectionIcon" src="../resources/Background_Images/index_page/Pioneers_Academy_Logo.png" alt="Pioneers Academy Logo">
+            <img class="job-container-icon section-icon" src="../resources/Background_Images/index_page/Pioneers_Academy_Logo.png" alt="Pioneers Academy Logo">
             <h3>Software Developer, Pioneers Academy, Amman, Jordan</h3>
         </div>
 
         <hr>
 
         <!-- Add a div that will mention my certificates -->
-        <div class="certificatesContainer">
-            <h2 class="certificatesContainerTitle sectionTitle">Certificates</h2>
+        <div class="certificates-container">
+            <h2 class="certificates-container-title section-title">Certificates</h2>
 
             <!-- Mention web development -->
-            <img class="certificatesContainerIcon sectionIcon" src="../resources/Background_Images/index_page/web_development.png" alt="web development icon">
+            <img class="certificates-container-icon section-icon" src="../resources/Background_Images/index_page/web_development.png" alt="web development icon">
             <h3>Web Development By Udemy</h3>
             <p class="description">
                 In this course I was introduced to all the necessary skills and languages needed 
@@ -89,10 +96,10 @@
             </p>
 
             <!-- Add a separator to make things look nicer -->
-            <div class="internalSeparator"></div>
+            <div class="internal-separator"></div>
             
             <!-- Mention CCNA -->
-            <img class="certificatesContainerIcon sectionIcon" src="../resources/Background_Images/index_page/CCNA_S_W_Logo.jpg" alt="CCNA: Switching & Routing Certificate">
+            <img class="certificates-container-icon section-icon" src="../resources/Background_Images/index_page/CCNA_S_W_Logo.jpg" alt="CCNA: Switching & Routing Certificate">
             <h3>CCNA: Switching & Routing Certificate</h3>
             <p class="description">
                 In this course, I was introduced to the basics of computer networks, the role of different
@@ -106,15 +113,15 @@
         <hr>
 
         <!-- Add a div that will mention my education -->
-        <div class="educationContainer">
-            <h2 class="educationContainerTitle sectionTitle">Education</h2>
+        <div class="education-container">
+            <h2 class="education-container-title section-title">Education</h2>
 
             <!-- Add a separator to make things look nicer -->
-            <div class="internalSeparator"></div>
+            <div class="internal-separator"></div>
 
             <!-- Add the university's logo and add a brief description -->
-            <img class="universityLogo logo" src="../resources/Background_Images/index_page/university_of_st_andrews.jpg" alt="University of St Andrews">
-            <span class="briefDescription"> 
+            <img class="university-logo logo" src="../resources/Background_Images/index_page/university_of_st_andrews.jpg" alt="University of St Andrews">
+            <span class="brief-description"> 
                 <h3>UNIVERSITY OF ST ANDREWS, SCOTLAND, UK</h3>
                 <br>
                 <p>
@@ -124,11 +131,11 @@
             </span>
 
             <!-- Add a separator to make things look nicer -->
-            <div class="internalSeparator"></div>
+            <div class="internal-separator"></div>
 
             <!-- Add Amman Academy's logo and add a brief description -->
-            <img class="highSchoolLogo logo" src="../resources/Background_Images/index_page/amman_academy_logo.jpg" alt="Amman Academy Logo">
-            <span class="briefDescription AmmanAcademy"> 
+            <img class="high-school-logo logo" src="../resources/Background_Images/index_page/amman_academy_logo.jpg" alt="Amman Academy Logo">
+            <span class="brief-description amman-academy"> 
                 <h3>Amman Academy, Amman, Jordan</h3>
                 <br>
                 <p>
@@ -140,10 +147,10 @@
         <hr>
 
         <!-- Add a div that will mention my skills [programming and general skills] -->
-        <div class="skillsContainer">
-            <h2 class="skillsContainerTitle sectionTitle">Skills</h2>
+        <div class="skills-container">
+            <h2 class="skills-container-title section-title">Skills</h2>
             <!-- This section will focus on the programming skills -->
-            <img class="skillsContainerIcon sectionIcon" src="../resources/Background_Images/index_page/coding.png" alt="coding icon">
+            <img class="skills-container-icon section-icon" src="../resources/Background_Images/index_page/coding.png" alt="coding icon">
             <h3>Programming Skills</h3>
             <p class="description">
                 sql | java | python | css | html | javascript | node | react | 
@@ -151,10 +158,10 @@
             </p>
 
             <!-- Separating programming and general skills -->
-            <div class="internalSeparator"></div>
+            <div class="internal-separator"></div>
 
             <!-- This section will focus on the general skills -->
-            <img class="skillsContainerIcon sectionIcon" src="../resources/Background_Images/index_page/languages.png" alt="globe icon">
+            <img class="skills-container-icon section-icon" src="../resources/Background_Images/index_page/languages.png" alt="globe icon">
             <h3>General Skills</h3>
             <p class="description">
                 Arabic [native language] | English [second language] | public speaking
@@ -164,11 +171,11 @@
         <hr>
 
         <!-- Add a div that will mention my hobbies -->
-        <div class="hobbiesContainer">
-            <h2 class="hobbiesContainerTitle sectionTitle">Hobbies</h2>
+        <div class="hobbies-container">
+            <h2 class="hobbies-container-title section-title">Hobbies</h2>
 
             <!-- Add details about reading -->
-            <img class="hobbiesContainerIcon sectionIcon" src="../resources/Background_Images/index_page/study.png" alt="reading icon">
+            <img class="hobbies-container-icon section-icon" src="../resources/Background_Images/index_page/study.png" alt="reading icon">
             <h3>Reading</h3>
             <p class="description">
                 I have recently started enjoying reading, therefore I do not have any preferences in terms of 
@@ -177,10 +184,10 @@
             </p>
 
             <!-- Separating programming and general skills -->
-            <div class="internalSeparator"></div>
+            <div class="internal-separator"></div>
 
             <!-- Add details about playing sports -->
-            <img class="hobbiesContainerIcon sectionIcon" src="../resources/Background_Images/index_page/soccer.png" alt="sports icon">
+            <img class="hobbies-container-icon section-icon" src="../resources/Background_Images/index_page/soccer.png" alt="sports icon">
             <h3>Playing Sports</h3>
             <p class="description">
                 My favourite sport is football (soccer) but I do enjoy playing other sports such as volleyball, 
@@ -188,10 +195,10 @@
             </p>
 
             <!-- Separating programming and general skills -->
-            <div class="internalSeparator"></div>
+            <div class="internal-separator"></div>
 
             <!-- Add details about playing chess -->
-            <img class="hobbiesContainerIcon sectionIcon" src="../resources/Background_Images/index_page/chess.png" alt="chess icon">
+            <img class="hobbies-container-icon section-icon" src="../resources/Background_Images/index_page/chess.png" alt="chess icon">
             <h3>Playing Chess</h3>
             <p class="description">
                 I have recently started enjoying playing chess, but I never got into the details of the game. 
@@ -199,10 +206,10 @@
             </p>
 
             <!-- Separating programming and general skills -->
-            <div class="internalSeparator"></div>
+            <div class="internal-separator"></div>
 
             <!-- Add details about playing video games -->
-            <img class="hobbiesContainerIcon sectionIcon" src="../resources/Background_Images/index_page/game-controller.png" alt="video games icon">
+            <img class="hobbies-container-icon section-icon" src="../resources/Background_Images/index_page/game-controller.png" alt="video games icon">
             <h3>Gaming</h3>
             <p class="description">
                 Although I am not a full time gamer, but I do enjoy playing video games every once and a while. My 
@@ -210,10 +217,10 @@
             </p>
 
             <!-- Separating programming and general skills -->
-            <div class="internalSeparator"></div>
+            <div class="internal-separator"></div>
 
             <!-- Add details about food -->
-            <img class="hobbiesContainerIcon sectionIcon" src="../resources/Background_Images/index_page/kitchen.png" alt="food icon">
+            <img class="hobbies-container-icon section-icon" src="../resources/Background_Images/index_page/kitchen.png" alt="food icon">
             <h3>Trying New & Exotic Foods</h3>
             <p class="description">
                 I have a passion for food. Although I do not enjoy making the food but I do certainly 
@@ -222,10 +229,10 @@
             </p>
 
             <!-- Separating programming and general skills -->
-            <div class="internalSeparator"></div>
+            <div class="internal-separator"></div>
 
             <!-- Add details about podcasts -->
-            <img class="hobbiesContainerIcon sectionIcon" src="../resources/Background_Images/index_page/podcast.png" alt="podcast icon">
+            <img class="hobbies-container-icon section-icon" src="../resources/Background_Images/index_page/podcast.png" alt="podcast icon">
             <h3>Listening to Podcasts</h3>
             <p class="description">
                 I enjoy listening to podcasts and some of my favourite podcasts includes 'The Joe Rogan Experience',
@@ -236,15 +243,15 @@
         <hr>
 
         <!-- Add a division that will contain copyrights and hyperlinks to my various social media -->
-        <div class="finalContainer">
+        <div class="final-container">
             <!-- Adding a title for the user to to know the content of this section -->
-            <h2 class="finalContainerTitle sectionTitle">Stay Up To Date And Get In Touch</h2>
+            <h2 class="final-container-title section-title">Stay Up To Date And Get In Touch</h2>
 
             <!-- Adding an icon for aesthetics reasons -->
-            <img class="finalContainerIcon sectionIcon" src="../resources/Background_Images/index_page/mental.png" alt="mental icon">
+            <img class="final-container-icon section-icon" src="../resources/Background_Images/index_page/mental.png" alt="mental icon">
 
             <!-- Adding a paragraph as a small conclusion -->
-            <p class="finalContainerConclusion paragraph">
+            <p class="final-container-conclusion paragraph">
                 My aim is to create a community where everyone can be themselves and enjoy not only being members, but also 
                 contributors to this community. I want you to be able to express your thoughts and share your experiences and 
                 opinions with me and the rest of the individuals here. If you would like to contribute to the making of this 
@@ -253,19 +260,19 @@
             </p>
 
             <!-- Add the list of social media that visitors could follow me on -->
-            <a href="https://www.facebook.com/faysal.kharraz"><img class="socialMediaIcon" src="../resources/Background_Images/index_page/facebook.png" alt="facebook icon"></a>
-            <a href="https://twitter.com/FaysalKharraz"><img class="socialMediaIcon" src="../resources/Background_Images/index_page/twitter.png" alt="twitter icon"></a>
-            <a href="https://www.linkedin.com/in/faysal-al-kharraz-29b11815b"><img class="socialMediaIcon" src="../resources/Background_Images/index_page/linkedin.png" alt="linkedin icon"></a>
+            <a href="https://www.facebook.com/faysal.kharraz"><img class="social-media-icon" src="../resources/Background_Images/index_page/facebook.png" alt="facebook icon"></a>
+            <a href="https://twitter.com/FaysalKharraz"><img class="social-media-icon" src="../resources/Background_Images/index_page/twitter.png" alt="twitter icon"></a>
+            <a href="https://www.linkedin.com/in/faysal-al-kharraz-29b11815b"><img class="social-media-icon" src="../resources/Background_Images/index_page/linkedin.png" alt="linkedin icon"></a>
 
             <!-- Attribute section to the website for copyright purposes -->
-            <div class="finalContainerAttributionSection">
+            <div class="final-container-attribution-section">
                 Attribution to: 
                 <br>
                 Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
             </div>
             
             <!-- Copyright section to protect my website -->
-            <div class="finalContainerCopyright">
+            <div class="final-container-copyright">
                 <p>&#169 2020 Faysal Al-Kharaz</p>
             </div>
         </div>

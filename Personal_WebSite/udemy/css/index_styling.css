@@ -1,22 +1,42 @@
 body {
-    /* Set the background color */
     background-color: whitesmoke;
-
-    /* set the margin for the body */
     margin: 0;
 }
+
 hr {
     border: none;
     height: 2px;
     background: black;
 }
+
 h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
 /************************************************************************************************************************/
 
-.mainContainer {
+.navbar {
+    background-color: aliceblue;
+    padding-bottom: 2%;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 2.0rem;
+}
+
+.nav-item {
+    padding: 0px 20px;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+}
+
+/************************************************************************************************************************/
+
+.main-container {
     /* Add a background image to the main container */
     /*background-image: url("../resources/Background_Images/index_page/index_main_image.jpg"); */
     background-image: url("../resources/Background_Images/index_page/E5F056FB-27A4-48F2-9E0E-DDBB75A6B044.jpeg");
@@ -30,7 +50,8 @@ h3 {
     /* Change the color of the background of this div */
     background-color: rgb(1, 56, 26);
 }
-.mainContainerPrompt {
+
+.main-container-prompt {
     /* Change the type of position of this element */
     position: absolute;
 
@@ -48,7 +69,8 @@ h3 {
     font-size: 40px;
     font-family: 'Montserrat', sans-serif;
 }
-.mainContainerIntroduction {
+
+.main-container-introduction {
     /* Change the padding of this element */
     padding-left: 800px;
     padding-right: 0;
@@ -71,134 +93,31 @@ h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
-.navigationBar {
-    position: fixed;
-    background-color: whitesmoke;
-    width: 100%;
-    display: block;
-
-    /* Add border to this div */
-    border-top: 0px solid black;
-    border-bottom: 3px solid black;
-    border-left: 3px solid black;
-    border-right: 3px solid black;
-}
-.navigationBarList {
-    /* Remove any list styling */
-    list-style-type: none;
-}
-.navigationBarListItem {
-    /* Make each list item take the amount of space it needs only, not more and not less */
-    display: inline-block;
-}
-.navigationBarListItem a {
-    /* Change the text font */
-    font-family: sans-serif;
-
-    /* Remove the underline and the blue link from the text */
-    text-decoration: none;
-
-    /* Change the display to block */
-    display: block;
-
-    /* Change the color of the text */
-    color: black;
-
-    /* Add a left/right margin */
-    margin-left: 7cm;
-
-    /* Increase font size */
-    font-size: 20pt;
-}
-.navigationBarListItem:hover a {
-    color: rgb(3, 19, 236);
-}
-.navigationBar::-webkit-scrollbar {
-    background-color: black;
-    color: white;
-}
-
-.finalContainer {
-    /* Center all the elements in this division */
-    text-align: center;
-
-    /* Add a background color if suitable */
-    background-color: rgb(219, 219, 223);
-}
-.finalContainerTitle {
-
-}
-.finalContainerIcon {
-    /* Add a black/gray background */
-    background-color: rgb(247, 214, 144);
-
-    /* Make the icon circular */
-    border-radius: 40%;
-}
-.finalContainerAttributionSection {
-    /* Change the font size */
-    font-size: 10px;
-}
-.paragraph {
-    /* Change the font family for all paragraphs */
-    font-family: 'Montserrat', sans-serif;
-}
-.socialMediaIcon {
-    /* Set the size of all icons to be used */
-    width: 50px;
-    height: 50px;
-
-    /* Add margin to space out the icons */
-    margin-left: 5cm;
-    margin-right: 5cm;
-}
-.finalContainerCopyright {
-    /* Change the font size */
-    font-size: 10px;
-}
-
 /************************************************************************************************************************/
 
-.sectionTitle {
-    /* Adding font specifications for every section's title */
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
-}
-
-/************************************************************************************************************************/
-
-.sectionIcon {
-    /* Center the icon in the middle and reduce its size */
-    display: inline-block;
-    width: 250px;
-    height: 250px;
-    left: 500px;
-}
-
-/************************************************************************************************************************/
-
-.hobbiesContainer {
+.job-container {
     /* Center all elements in the middle */
     text-align: center;
 
-    background-color: rgb(245, 253, 214);
+    background-color: aliceblue;
 }
 
 /************************************************************************************************************************/
 
-.skillsContainer {
+.certificates-container {
     /* Center all elements in the middle */
     text-align: center;
 
-    background-color: rgb(192, 243, 213);
+    /* Add a background color */
+    background-color: rgb(250, 229, 218);
 }
 
 /************************************************************************************************************************/
 
-.educationContainer {
+.education-container {
     background-color: rgb(230, 248, 213);
 }
+
 .logo {
     /* Push the image to the left */
     left: 50px;
@@ -207,7 +126,8 @@ h3 {
     height: 300px;
     width: 450px;
 }
-.briefDescription {
+
+.brief-description {
     display: inline-block;
     position: absolute;
 
@@ -219,26 +139,92 @@ h3 {
 
 /************************************************************************************************************************/
 
-.jobContainer {
+.skills-container {
     /* Center all elements in the middle */
     text-align: center;
 
-    background-color: aliceblue;
+    background-color: rgb(192, 243, 213);
 }
 
 /************************************************************************************************************************/
 
-.certificatesContainer {
+.hobbies-container {
     /* Center all elements in the middle */
     text-align: center;
 
-    /* Add a background color */
-    background-color: rgb(250, 229, 218);
+    background-color: rgb(245, 253, 214);
 }
 
 /************************************************************************************************************************/
 
-.internalSeparator {
+.final-container {
+    /* Center all the elements in this division */
+    text-align: center;
+
+    /* Add a background color if suitable */
+    background-color: rgb(219, 219, 223);
+}
+
+.final-container-icon {
+    /* Add a black/gray background */
+    background-color: rgb(247, 214, 144);
+
+    /* Make the icon circular */
+    border-radius: 40%;
+}
+
+.final-container-conclusion {
+    margin-top: 2%;
+}
+
+.final-container-attribution-section {
+    font-size: 10px;
+    margin-top: 2%;
+}
+
+.paragraph {
+    /* Change the font family for all paragraphs */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.social-media-icon {
+    /* Set the size of all icons to be used */
+    width: 50px;
+    height: 50px;
+
+    /* Add margin to space out the icons */
+    margin-left: 5cm;
+    margin-right: 5cm;
+    margin-top: 2%;
+}
+
+.final-container-copyright {
+    /* Change the font size */
+    font-size: 10px;
+}
+
+/************************************************************************************************************************/
+
+.section-title {
+    /* Adding font specifications for every section's title */
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+/************************************************************************************************************************/
+
+.section-icon {
+    /* Center the icon in the middle and reduce its size */
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    left: 500px;
+}
+
+/************************************************************************************************************************/
+
+.internal-separator {
     border-top: 1px solid black;
 
     /* Control the length of the separator from both sides */
@@ -256,6 +242,7 @@ h3 {
 .description {
     text-align: justify;
     font-family: 'Montserrat', sans-serif;
-    font-size: 14pt;
+    font-size: 1rem;
     text-align: center;
+    padding: 0% 1%;
 }
