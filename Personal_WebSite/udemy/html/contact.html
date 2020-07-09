@@ -41,13 +41,75 @@
                 <p class="contact-me-paragraph">TO DO LATER</p>
             </div>
             
-            <div class="row justify-content-center">
-                <div class="col-md-8 col-lg-6 ">
-                    <form action="" method="post">
+            <!--add those to the class below mb-md-0 mb-5-->
+            <div class="contact-div col-md-12">
+                <!-- Title -->
+                <h2 class="contact-me-header">CONTACT FORM</h2>
 
-                    </form>
-                </div>
-            </div>
+                <form id="contact-form" name="contact-form" action="../php/mail.php" method="POST">
+                    
+                    <!--Grid row-->
+                    <div class="row">
+    
+                        <!--Grid column-->
+                        <div class="column col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control">
+                                <label class="label-container" for="name" class="">Your Name</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+    
+                        <!--Grid column-->
+                        <div class="column col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" name="email" class="form-control">
+                                <label class="label-container" for="email" class="">Your Email</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+    
+                    </div>
+                    <!--Grid row-->
+    
+                    <!--Grid row-->
+                    <div class="row">
+                        <div class="column col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="subject" name="subject" class="form-control">
+                                <label class="label-container" for="subject" class="">Subject</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+    
+                    <!--Grid row-->
+                    <div class="row">
+    
+                        <!--Grid column-->
+                        <div class="column col-md-12">
+    
+                            <div class="md-form">
+                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                <label class="label-container" for="message">Your Message</label>
+                            </div>
+    
+                        </div>
+                    </div>
+
+                    <!--Grid row-->
+                    <div class="row">
+                        
+                        <!-- Grid column-->
+                        <div class="column col-sm-12">
+                            <!-- Send/Submit button  -->
+                            <a class="btn btn-primary btn-lg btn-block" onclick="document.getElementById('contact-form').submit();"> SEND </a>
+                            <div class="status"></div>
+                        </div>
+
+                    </div>
+
+                </form>
         </div>
     </body>
 </html>

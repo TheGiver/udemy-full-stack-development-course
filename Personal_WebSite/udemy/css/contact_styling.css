@@ -65,7 +65,16 @@ body {
 
 .row {
     background-color: white;
-    height: 200px;;
+    height: 200px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 5% 10%;
+}
+
+.contact-div {
+    background-color: white;
 }
 
 /************************************************************************************************************************/
