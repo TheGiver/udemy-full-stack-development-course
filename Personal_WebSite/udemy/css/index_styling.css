@@ -37,60 +37,27 @@ h3 {
 /************************************************************************************************************************/
 
 .main-container {
-    /* Add a background image to the main container */
-    /*background-image: url("../resources/Background_Images/index_page/index_main_image.jpg"); */
-    background-image: url("../resources/Background_Images/index_page/E5F056FB-27A4-48F2-9E0E-DDBB75A6B044.jpeg");
-    background-repeat: no-repeat;
-    background-size: auto;
+    background-color: rgb(2, 58, 10);
+    color: gold;
+}
 
-    /* Change the height of this division */
-    height: 100vh;
-    width: 100%;
-
-    /* Change the color of the background of this div */
-    background-color: rgb(1, 56, 26);
+.profile-pic {
+    width: 600px;
 }
 
 .main-container-prompt {
-    /* Change the type of position of this element */
-    position: absolute;
-
-    /* Change the display of this element */
-    display: inline-block;
-
-    /* Change the margin such that we place the element at the bottom */
-    top: 50px;
-    right: 160px;
-
-    /* Change the color of the text */
-    color: rgb(241, 186, 6);
-
-    /* Control font size and style of any text inside this <div> */
-    font-size: 40px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
+    text-align: center;
+    line-height: 2.0rem;
 }
 
-.main-container-introduction {
-    /* Change the padding of this element */
-    padding-left: 800px;
-    padding-right: 0;
+.main-container-title {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
 
-    /* Justify the content */
+.main-container-span {
     text-align: justify;
-
-    /* Change the type of position of this element */
-    position: absolute; 
-
-    /* Change the margin of this element such that it is placed below the title */
-    top: 150px; 
-    right: 150px;
-
-    /* Change the color of the text */
-    color: rgb(241, 186, 6);
-
-    /* Control font size and style of any text inside this <div> */
-    font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
 }
 
 /************************************************************************************************************************/
@@ -226,15 +193,8 @@ h3 {
 
 .internal-separator {
     border-top: 1px solid black;
-
-    /* Control the length of the separator from both sides */
-    width: 800px;
-    position: relative;
-    left: 350px;
-
-    /* Add margin on the top and bottom side */
-    margin-top: 50px;
-    margin-bottom: 50px;
+    width: 10%;
+    margin: 50px auto;
 }
 
 /************************************************************************************************************************/
