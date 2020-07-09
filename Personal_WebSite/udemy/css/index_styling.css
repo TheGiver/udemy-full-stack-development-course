@@ -37,18 +37,20 @@ h3 {
 /************************************************************************************************************************/
 
 .main-container {
-    background-color: rgb(2, 58, 10);
     color: gold;
+    text-align: center;
 }
 
 .profile-pic {
-    width: 600px;
+    width: 100%;
 }
 
 .main-container-prompt {
+    background-color: rgb(2, 58, 10);
     font-family: 'Montserrat';
     text-align: center;
     line-height: 2.0rem;
+    padding-left: 1%;
 }
 
 .main-container-title {
@@ -86,22 +88,15 @@ h3 {
 }
 
 .logo {
-    /* Push the image to the left */
     left: 50px;
-
-    /* Standardizing the size of the logo */
     height: 300px;
     width: 450px;
+    float: left;
 }
 
 .brief-description {
-    display: inline-block;
-    position: absolute;
-
-    /* Add a space between the logo element and this element */
+    font-family: 'Montserrat';
     margin-left: 10px;
-
-    font-family: 'Montserrat', sans-serif;
 }
 
 /************************************************************************************************************************/
