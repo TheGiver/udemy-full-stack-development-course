@@ -1,61 +1,54 @@
 body {
    margin: 0; 
+   text-align: center;
+}
+
+h2 {
+    font-family: 'Ubuntu';
+    font-weight: bold;
 }
 
 /************************************************************************************************************************/
 
-.navigationBar {
-    position: fixed;
-    background-color: whitesmoke;
-    width: 100%;
-    display: block;
-
-    /* Add border to this div */
-    border-top: 0px solid black;
-    border-bottom: 3px solid black;
-    border-left: 3px solid black;
-    border-right: 3px solid black;
+.navbar {
+    padding-bottom: 2%;
 }
-.navigationBarList {
-    /* Remove any list styling */
-    list-style-type: none;
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 2.0rem;
 }
-.navigationBarListItem {
-    /* Make each list item take the amount of space it needs only, not more and not less */
-    display: inline-block;
+
+.nav-item {
+    padding: 0px 20px;
 }
-.navigationBarListItem a {
-    /* Change the text font */
-    font-family: sans-serif;
 
-    /* Remove the underline and the blue link from the text */
-    text-decoration: none;
-
-    /* Change the display to block */
-    display: block;
-
-    /* Change the color of the text */
-    color: black;
-
-    /* Add a left/right margin */
-    margin-left: 7cm;
-
-    /* Increase font size */
-    font-size: 20pt;
-}
-.navigationBarListItem:hover a {
-    color: rgb(3, 19, 236);
-}
-.navigationBar::-webkit-scrollbar {
-    background-color: black;
-    color: white;
+.nav-link {
+    font-size: 1.5rem;
 }
 
 /************************************************************************************************************************/
 
-.underConstruction {
-    padding-top: 1cm;
+.search-container {
     text-align: center;
+    background-image: url("../resources/Background_Images/blog_page/raining-690930_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.search-topic-div {
+    padding: 20% 10%;
 }
 
 /************************************************************************************************************************/
+
+.column {
+    margin: 3% 0% 3% 0%;
+}
+
+.img-fluid {
+    height: 400px;
+    width: 400px;
+    border-radius: 10%;
+}
