@@ -35,10 +35,14 @@ body {
     text-align: center;
     font-family: 'Montserrat';
     font-weight: bold;
+    margin-top: 2%;
 }
 
 .contact-me-paragraph {
     font-family: 'Montserrat';
+    text-align: justify;
+    margin: 2% 2%;
+    padding-bottom: 1%;
 }
 
 .speech-bubble {
@@ -60,7 +64,7 @@ body {
 	border-bottom: 0;
 	border-left: 0;
 	margin-left: -10px;
-	margin-bottom: -20px;
+    margin-bottom: -20px;
 }
 
 .row {

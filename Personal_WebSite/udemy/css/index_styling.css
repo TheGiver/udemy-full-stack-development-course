@@ -1,6 +1,6 @@
 body {
     background-color: whitesmoke;
-    margin: 0;
+    margin: auto;
 }
 
 hr {
@@ -43,12 +43,13 @@ h3 {
 
 .profile-pic {
     width: 100%;
+    margin-left: 1%;
 }
 
 .main-container-prompt {
     background-color: rgb(2, 58, 10);
     font-family: 'Montserrat';
-    text-align: center;
+    text-align: left;
     line-height: 2.0rem;
     padding-left: 1%;
 }
@@ -56,10 +57,12 @@ h3 {
 .main-container-title {
     padding-top: 2%;
     padding-bottom: 2%;
+    text-align: center;
 }
 
-.main-container-span {
+.main-container-paragraph {
     text-align: justify;
+    padding: 0% 3%;
 }
 
 /************************************************************************************************************************/
