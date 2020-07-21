@@ -1,6 +1,7 @@
 body {
-   margin: 0; 
-   text-align: center;
+    background: linear-gradient(to bottom, #202020, #111119);
+    margin: 0; 
+    text-align: center;
 }
 
 h2 {
@@ -42,6 +43,10 @@ h2 {
 }
 
 /************************************************************************************************************************/
+
+.topics-container {
+    color: white;
+}
 
 .column {
     margin: 3% 0% 3% 0%;

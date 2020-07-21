@@ -1,0 +1,17 @@
+Title: Bug Report
+Date: 18-07-2020
+
+--------------------------------------------------------------------
+
+Bug #1:
+Details:
+I would like to add a rain effect to the blog.
+
+Possible Approaches:
+I am unaware on how to build this, but I am currently learning and analysing an 
+approach I found online.
+
+Status:
+In Progress
+
+--------------------------------------------------------------------
