@@ -101,5 +101,12 @@ Task-15:
 -> Description:
 I would like to create some space between the icons and the top of the section. 
 
--> Status: [In Progress]
+-> Status: [Done]
 ------------------------
+Task-16:
+-> Description:
+I would like to create some space between the icons and the copyright text. 
+I would also like to create some space between the copyright text and the 
+bottom of the container. 
+
+-> Status: [Done]
