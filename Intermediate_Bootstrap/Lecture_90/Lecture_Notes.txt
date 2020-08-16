@@ -1,0 +1,105 @@
+Lecture Title: Challenge
+------------------------
+Introduction:
+In this lecture we have been assigned a task where we are supposed to fix the 
+very last 2 sections of our website according to the specification provided by 
+the moderator. 
+------------------------
+Note:
+It is important to keep the website cross-platform friendly to ensure that the 
+user has the best user experience and that the website is ranked highly in com-
+parison to the pool of similar websites available. 
+------------------------
+Task-01:
+-> Description:
+The first thing that we have to do is center all elements inside the very 
+last 2 sections of the website. 
+
+-> Status: [Done]
+------------------------
+Task-02:
+-> Description:
+The second thing I would like to do is adjust the font color, type, and weight 
+for the text in the cta section. 
+
+-> Status: [Done]
+------------------------
+Task-03:
+-> Description:
+I would like to change the background color of the cta section.
+
+-> Status: [Done]
+------------------------
+Task-04:
+-> Description:
+I would like to make the text bolder than it currently is such that 
+it matches the specification. 
+
+-> Status: [Done]
+------------------------
+Task-05:
+-> Description:
+I would like to adjust the font size such that is matches the specs. 
+
+-> Status: [Done]
+------------------------
+Task-06:
+-> Description:
+I would like to add spacing between the buttons and the text above it. 
+
+-> Status: [Done]
+------------------------
+Task-09:
+-> Description:
+I would like to add the icons to the buttons and style them according to 
+the specs.
+
+-> Status: [Done]
+------------------------
+Task-10:
+-> Description:
+I would like to add padding/margins between the buttons and the end of the 
+section. 
+
+-> Status: [Done]
+------------------------
+Task-11:
+-> Description:
+I would like to add padding/margins between the text and the upper end of the 
+section. 
+
+-> Status: [Done]
+------------------------
+Task-12:
+-> Description:
+I would like to squeeze the text in order to make it appear the same way as the 
+specs.
+
+-> Status: [Done]
+------------------------
+Task-13:
+-> Description:
+I would like to add the social media/email icons to the footer section.
+
+Icons to be added:
+(a) Twitter
+(b) Facebook
+(c) Instagram
+(d) Envelop
+All from fontawesome
+
+-> Status: [Done]
+------------------------
+Task-14:
+-> Description:
+I would like to space the icons in the footer section such that they are more visible 
+and readable by the user. 
+
+-> Status: [Done]
+------------------------
+Task-15:
+-> Description:
+I would like to create some space between the icons and the top of the section. 
+
+-> Status: [In Progress]
+------------------------
