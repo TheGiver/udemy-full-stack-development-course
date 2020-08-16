@@ -46,8 +46,20 @@ body {
     padding-left: 2%;
     transform: rotate(25deg);
     z-index: 0;
-    position: absolute;
+    position: relative;
     right: 5%;
+}
+
+@media (max-width: 990px) {
+    #title {
+        text-align: center;
+    }
+
+    .main-background-image {
+        position: static;
+        transform: rotate(0);
+        padding-top: 5%;
+    }
 }
 
 /******************************************************************************************************/
