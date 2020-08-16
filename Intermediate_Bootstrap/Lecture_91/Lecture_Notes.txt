@@ -1,0 +1,20 @@
+Lecture Title: Sample Solution + Adjustments for Lecture 90
+-----------------------------------------------------------
+Introduction:
+In this lecture, we will add some code to add some functionality to our website. 
+The main functionality that we will be adding is related to navigation accross 
+the website. 
+-----------------------------------------------------------
+Adjustment 01:
+-> Description:
+At the top of the website we know that we have a navigation bar available. 
+What we will be doing is adding hyperlinks for each item in the navigation 
+bar and those links will be linking each item to a section on the page. 
+
+Connections to be formed:
+(a) Contact --> Footer section
+(b) Pricing --> Pricing section
+(c) Download --> CTA section
+
+-> Status: [Done]
+-----------------------------------------------------------
