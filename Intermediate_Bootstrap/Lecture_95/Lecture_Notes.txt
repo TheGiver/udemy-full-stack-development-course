@@ -1,0 +1,8 @@
+Lecture Title: Code Refactoring pt 2
+------------------------------------
+Ways to perform refactoring:
+I have noticed that the best way to perform refactoring and apply css selectors
+is to try and spot patterns and similarities across the webpage's design and then 
+attempt to figure out a way to join the elements that share the same features together
+in a simple way. 
+------------------------------------

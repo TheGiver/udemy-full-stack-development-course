@@ -1,0 +1,61 @@
+Lecture Title: CSS Selectors
+----------------------------
+Introduction:
+We use CSS selectors as a form of reducing our code length and improving the code's 
+readability. 
+
+CSS selectors are techniques used to reduce the code length and code repetition by 
+grouping together elements, classes and ids based on similarity in both property and 
+property value. 
+----------------------------
+Types of selectors:
+(a) Multiple selectors
+(b) Combined selectors
+(c) Hierarchical selectors
+----------------------------
+Multiple selectors:
+-> Definition:
+    A multiple selector is a form of selector typically used when random html tags/elements 
+    share the same property and property values. 
+
+-> Form:
+    selector1, selector2, ... {
+        /* Property type and value */
+    }
+
+-> Explanation:
+    When the web browser reads the css file, it will apply the property and its value to all 
+    elements specified as part of the selector. 
+----------------------------
+Combined selectors:
+-> Definition:
+    A combined selector is a form of selectors that is typically used to affect all elements across 
+    the html file that have the same id or class. 
+
+-> Form:
+    selector1[. | #]selector2 {
+        /* Property type and value */
+    }
+
+-> Explanation:
+    You typically associate a generic html tag with either an ID or a class. 
+    You typically read the association from left to right. 
+    The property affects all html tags with the same tag name [id | class] as the one 
+    specified in the css file. 
+----------------------------
+Hierarchical selectors:
+-> Definition:
+    This form of selectors is one that is used to specify the exact position of the element 
+    that we would like to apply the css properties to. 
+
+-> Form:
+    parent child ... target element {
+        /* Property type and value*/
+    }
+
+-> Explanation:
+    The machine typically reads this form of selection from right to left. 
+    The leftmost element is the target element. 
+    As you move to the left, you are going up the hierarchy in the html file. 
+    The property is applied to all elements in the html file that have the same 
+    parent..child association. 
