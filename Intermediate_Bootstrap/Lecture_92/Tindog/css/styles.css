@@ -1,0 +1,207 @@
+/* Styling the whole document through the body element */
+body {
+    font-family: 'Montserrat';
+}
+
+/******************************************************************************************************/
+
+/* Main title section components  */
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.container-fluid {
+    padding: 5% 15% 15% 15%;
+}
+
+.nav-brand {
+    color: white;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.navbar {
+    padding-bottom: 7%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.nav-item {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.nav-link {
+    font-size: 1.3rem;
+}
+
+.btn {
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+.main-background-image {
+    padding-left: 2%;
+    transform: rotate(25deg);
+    z-index: 0;
+    position: relative;
+    right: 5%;
+}
+
+@media (max-width: 990px) {
+    #title {
+        text-align: center;
+    }
+
+    .main-background-image {
+        position: static;
+        transform: rotate(0);
+        padding-top: 5%;
+    }
+}
+
+/******************************************************************************************************/
+
+/* Controlling all h1 elements in the html documents */
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+/******************************************************************************************************/
+
+/* Styling the navigation bar elements */
+
+/******************************************************************************************************/
+
+#features {
+    font-family: 'Montserrat', sans-serif;
+    padding: 7% 13%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.row {
+    margin: 100px 50px 100px 50px;
+}
+
+.features-container {
+    text-align: center;
+    padding: 3%;
+}
+
+.feature-icon {
+    color: #ef8172;
+    margin-bottom: 20px;
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+}
+
+.feature {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.feature-paragraph {
+    color: #8f8f8f;
+}
+
+/******************************************************************************************************/
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.carousel-item {
+    padding: 7% 13%;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+.testimonial-text {
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding: 0% 10%;
+}
+
+/******************************************************************************************************/
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px 20px;
+}
+
+/******************************************************************************************************/
+
+#pricing {
+    text-align: center;
+    padding: 7% 13%;
+}
+
+.card-holder {
+    padding: 3% 3%;
+}
+
+/******************************************************************************************************/
+
+/* Working on the CTA section of the webpage */
+#cta {
+    text-align: center;
+    font-family: "Montserrat";
+    color: white;
+    background-color: #ff4c68;
+}
+
+.cta-main-div {
+    padding: 0 20%;
+}
+
+.cta-text {
+    font-weight: 700;
+    font-size: 2.9rem;
+    margin-bottom: 2%;
+    padding-top: 7%;
+    line-height: 1.5;
+}
+
+.cta-btn-div {
+    padding-bottom: 15%;
+}
+
+/******************************************************************************************************/
+
+/* Working on the footer section of the webpage */
+#footer {
+    text-align: center;
+}
+
+.footer-icons-p {
+    margin: 5% 0 2% 0;
+}
+
+.footer-icon {
+    margin: 0 1%;
+}
+
+.footer-copyright-p {
+    margin-bottom: 5%;
+}
