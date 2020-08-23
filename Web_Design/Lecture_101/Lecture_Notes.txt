@@ -1,0 +1,13 @@
+Lecture Title: Introduction to Web Design
+-----------------------------------------
+Aim:
+The aim of this module is to teach us the tricks and techniques that 
+will help us develop attractive websites that look professional, authentic, 
+valid and captivating. 
+
+The reason why this aspect of design is vital is because most of the clients 
+that will be dealing with the website do not really know about coding and everything
+that goes into the building of the functionality of the website. All clients know is 
+whether the website is easy to navigate and whether it looks nice or not. Therefore, we 
+can see the vitality of this aspect of web development which emphasizes on the importance 
+of knowing such tricks and techniques. 
