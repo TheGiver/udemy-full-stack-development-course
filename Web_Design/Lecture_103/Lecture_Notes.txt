@@ -1,0 +1,36 @@
+Lecture Title: Understanding Typography
+---------------------------------------
+Introduction:
+As we have mentioned before, the font that you choose helps set the 
+mood and aids in setting the theme of the website. Therefore, it is 
+one essential element to consider when designing a webpage. 
+------------------------------------------
+Consequences of choosing the wrong font:
+The consequences of choosing the wrong font are:
+a. setting the wrong mood
+b. delivering the wrong message
+------------------------------------------
+Main families:
+There exists 2 main font families that we need to know and those are:
+a. Serif
+b. San-Serif
+
+--> Serif family:
+This family consists of font that tend to be more bold and authoratitive in 
+nature. 
+
+They are most suited for scenarios where you want some piece of text to stand 
+out from the rest of the data presented on the webpage. 
+
+For instance, this family would be good to use when attempting to write down the 
+title of an article or a heading in a newspapaer, etc. You get the idea. 
+
+--> San-serif family:
+This text tends to be more friendly, more readible and legible. 
+
+It is most suited for scenarios where you want to hit the reader with a large piece 
+of text. 
+------------------------------------------
+Advice:
+One thing the lecturer has informed us is not to overwhelm the website with a variety 
+of fonts as it will make the website look less professional. 
