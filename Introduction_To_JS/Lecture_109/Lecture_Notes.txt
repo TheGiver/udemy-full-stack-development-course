@@ -1,0 +1,24 @@
+Lecture Title: JS Datatypes
+---------------------------
+List of datatypes:
+In JS there are 3 main datatypes and those are:
+(a) String
+(b) Numbers
+(c) Boolean
+---------------------------
+Extending of alert():
+I have mentioned before that alert() accepts a string as parameters but
+apparently it accepts operations as well such as alert(2+3). 
+
+So the parameter is not restricted to strings. 
+---------------------------
+Introduction of typeof():
+This function takes in any type of data and informs us the datatype of the 
+input. 
+
+Example:
+< typeof(true)
+> Boolean
+
+< typeof(2)
+> Number
