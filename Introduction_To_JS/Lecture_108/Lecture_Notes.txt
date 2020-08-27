@@ -1,0 +1,10 @@
+Lecture Title: JS Alerts
+------------------------
+Alerts:
+According to the MDN documentation, alert() is a function that causes the 
+browser to generate a pop up. The content of that pop up will be whatever 
+the paramter's value is. 
+------------------------
+Usage Details:
+alert("Message");
+------------------------
