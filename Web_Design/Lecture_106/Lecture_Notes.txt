@@ -1,0 +1,18 @@
+Lecture Title: Putting Theory into Practice
+-------------------------------------------
+Introduction:
+In this lecture we will be taking the design principles that we have been 
+learning about all this time and put them into practise. 
+
+The website that we will be using to design our webpages and apply 
+our web design principles into practise is called canva.com
+-------------------------------------------
+About canva.com:
+This website allows you to design your webpage through the use of drag and drop 
+features. 
+
+It seems like a very interesting website, easy to use and navigate and you can 
+create very interesting templates using it. 
+
+I am going to use it when I refactor my code for my personal website and blog. 
+-------------------------------------------
