@@ -1,0 +1,6 @@
+Lecture Title: JS Variable Exercise Start
+-----------------------------------------
+Aim:
+The aim of this lecture is to take us through the instructions 
+of the exercise that we will be performing in the next lesson. 
+-----------------------------------------
