@@ -1,0 +1,18 @@
+Lecture Title: String Length Property
+-------------------------------------
+Adding comments:
+There are 2 ways to add comments in JS. The first way involves the use 
+of '//' which allows you to add a single-line comment. 
+
+The second way is to make use of '/* */' which allows you to add multi-lined
+comments. 
+-------------------------------------
+Length property:
+Sometimes you would like to retrieve the length of a string to accomplish a specific 
+task. The length property and its usage are illustrated in the js document provided 
+as part of the lecture's materials/resources. 
+
+An example where the string length matters is when writing tweets. Twitter restricts 
+the total number of characters in a tweet to ensure that all tweets are concise and 
+that information reaches people in the most efficient way possible. 
+-------------------------------------
