@@ -1,0 +1,6 @@
+Lecture Title: String Concatenation
+-----------------------------------
+How to perform concatenation?
+String concatenation is a simple process in JS and only requires 
+the use of the + symbol. 
+-----------------------------------
