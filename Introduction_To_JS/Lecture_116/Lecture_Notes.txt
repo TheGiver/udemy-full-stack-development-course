@@ -1,0 +1,18 @@
+Lecture Title: Slicing Strings
+------------------------------
+Idea of slicing:
+The idea behind slicing is that it can help cut parts of a string. 
+------------------------------
+Slicing function and usage details:
+Slicing is a function that can be used in the following way:
+                variableName.slice(x,y);
+where;
+--> x := the start index where we want the slicing to start 
+--> y := the end index where we want the slicing to stop (exclusive)
+
+The function returns the new sliced string. 
+------------------------------
+Note:
+In this lecture, we have been given a challenge that I have solved and
+the code for this challenge can be found under snippet.js
+------------------------------
