@@ -1,0 +1,10 @@
+Lecture Title: Creating and Calling Functions
+---------------------------------------------
+Note:
+As I have been previously exposed to the concept of functions, I will not 
+be typing the notes for it. 
+---------------------------------------------
+Usage Guide:
+To define a function in JS, use the following format:
+                function function_name([Parameters]) { /* Body */}
+---------------------------------------------
