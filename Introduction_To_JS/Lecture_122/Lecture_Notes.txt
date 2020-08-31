@@ -1,0 +1,16 @@
+Lecture Title: Functions pt 1 Challenge
+---------------------------------------
+Content:
+In this lecture we have been provided with a challenge to achieve and the code 
+for this challenge will be written on the following website:
+
+http://stanford.edu/~cpiech/karel/ide.html
+
+--> Challenge 1:
+The challenge that we were given is for the robot to reach the top right corner 
+of a 5x5 board. 
+
+--> Challenge 2:
+For this challenge, we were told to make the robot place a beeper at each diagonal 
+point until reaching the top right corner. 
+---------------------------------------
