@@ -1,0 +1,10 @@
+Lecture Title: Control Flow
+---------------------------
+Note:
+I am already aware of how control flows work in different programming
+language. Therefore, I will not be going over them here. 
+---------------------------
+Checking for equality:
+If you want to check that 2 things are equal, then you have to use 
+the '===' while in java and other languages they use the '=='.
+---------------------------
