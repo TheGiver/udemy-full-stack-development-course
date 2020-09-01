@@ -1,0 +1,7 @@
+Lecture Title: BMI Calculator Code Challenge
+--------------------------------------------
+Description:
+For this challenge we were asked to create a function that calculates 
+the BMI of a person given their weight (kg) and height (m) and return 
+that value. 
+--------------------------------------------
