@@ -1,0 +1,15 @@
+Lecture Title: Function Parameters and Arguments 
+------------------------------------------------
+Note:
+You are already familiar with the concept of function arguments and 
+function parameters, therefore I am not going to be discussing them 
+at all. 
+
+All I am going to in this lecture is solve the challenges and discuss 
+anything unusual or any concept that I have not encountered before. 
+------------------------------------------------
+Challenge 1:
+We were asked to create a function that will take in the amount of money 
+in integers as parameters and calculate the total amount of milk cartons 
+that could be bought with that amount given that each bottle costs $1.5. 
+------------------------------------------------
