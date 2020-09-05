@@ -1,0 +1,10 @@
+Lecture Title: Control Statements - The While Loop 
+--------------------------------------------------
+Note:
+Since I am already aware of the way while loops work, 
+their syntax and usage, I will not be writing any notes. 
+--------------------------------------------------
+Challenge:
+We have been told to write a script that will output the 
+lyrics to a song called '99 Bottles Challenge'.
+--------------------------------------------------
