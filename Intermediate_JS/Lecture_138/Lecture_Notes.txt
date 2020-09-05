@@ -1,0 +1,29 @@
+Lecture Title: Working with JS Arrays
+-------------------------------------
+Introduction to arrays:
+Arrays is one data of the basic and most important data structures 
+used in programming. 
+
+An array is essentially a collection of objects or data that can be 
+accessed in O(1) time. The data can either be of the same or diff. types 
+depending on the programming language being used. 
+
+Usually an array occupies a block of memory on the RAM depending on the size
+of the array at hand. 
+-------------------------------------
+Array Usage Guide:
+If you would like to define an array in JS, then you do the following:
+                        var varName = []
+
+If you would like to check the length of the array, then the '.length;' command 
+should do the trick. 
+
+If you would like to check whether an element exists in the array or not, then the 
+'arr.includes(<Target Element)' is the way to go. This function return a boolean 
+specifying whether the element has been found or not. 
+-------------------------------------
+Challenge One:
+In this challenge, we have been given a guest list and have been told that if the user's 
+name exists in the list, then we return a specific message, else we return another message 
+saying that their name is not on the list. 
+-------------------------------------
