@@ -1,0 +1,13 @@
+Lecture Title: Adding Elements & Intermediate Array Techniques
+--------------------------------------------------------------
+How to push elements to an array in JS:
+If you would like to add elements to an array, then you have to use the 
+.push(element);
+
+This method will add an element to the desired array and the element will 
+get added to the end of the array. 
+--------------------------------------------------------------
+Challenge:
+We have been told to replicate the fizzbuzz coding challenge which I have 
+found to be relatively easy. 
+--------------------------------------------------------------
