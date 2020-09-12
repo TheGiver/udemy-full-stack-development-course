@@ -1,0 +1,6 @@
+Lecture Title: The 99 Bottle Challenge
+--------------------------------------
+Task Description:
+For this challenge, we have been told to create a program that would generate 
+the lyrics for the 99 bottle song. 
+--------------------------------------
