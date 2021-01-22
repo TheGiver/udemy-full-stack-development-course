@@ -1,0 +1,23 @@
+Lecture Title: Selecting HTML Elements with JS
+----------------------------------
+Functions to manipulate elements:
+
+There exists multiple methods that allow us as developers to search, retrieve and manipulate 
+html elements. Functions include:
+a. document.getElementsByTagName()
+b. document.getElementsByClassName()
+c. document.getElementsById()
+d. document.querySelector()
+e. document.querySelectorAll() 
+
+The querySelector(All) approach is used more often as it gives developers a greater degree of freedom 
+and ability to perform more powerful, useful and targeted searches. 
+----------------------------------
+Challenge:
+We were given a challenge to change the text color of the item that says 'GOOGLE' to red 
+using javascript. 
+----------------------------------
+Note:
+I have provided a snipper of a bunch of JS code that I wrote to practise manipulating html 
+elements via JS. 
+The JS snippet is titled 'script.js'
