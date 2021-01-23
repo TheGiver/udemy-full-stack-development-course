@@ -1,4 +1,12 @@
 Lecture Title: Text Manipulation & The Text Content Property
 ------------------------------------------------------------
+innerHTML:
+This property allows us to retrieve all html code that lays between the opening and closing 
+tags of the tags that we were looking for. 
 
+By using this functionality, we can add either text or html elements or both in between the 
+selected html elements. 
 ------------------------------------------------------------
+textContent:
+This functionality allows us to only retrieve and manipulate the content of the html tags (the
+text and not the elements themselves).
