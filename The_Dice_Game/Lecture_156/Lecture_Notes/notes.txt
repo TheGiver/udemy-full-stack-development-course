@@ -1,0 +1,10 @@
+Lecture Title: The Dice Challenge
+---------------------------------
+Challenge Specifications:
+We were given a challenge to build a website from scratch. The website must look similar to or 
+identical to the one shown in the lecture. 
+
+The website is essentially a small, simple and a basic game that is played by continiously refreshing
+the page. On each refresh, 2 dice are going to be thrown at random and whichever is bigger, the player 
+representing the die will win. 
+---------------------------------
