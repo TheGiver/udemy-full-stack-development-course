@@ -1,0 +1,17 @@
+.main-container {
+    position:fixed;
+    width:100%;
+    height:100%;
+    background-color: #6d6b70;
+    background-size: cover;
+}
+
+.prompt {
+    margin: auto;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.throw-dice-btn {
+    margin: auto;
+}
