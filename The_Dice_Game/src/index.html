@@ -16,6 +16,9 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
     
+    <!-- Linking the JavaScript file -->
+    <script type="text/javascript" src="./js/index.js"></script>
+
     <!-- Adding the meta and the webpage's title -->
     <meta charset="utf-8">
     <title>Dice Game</title>
@@ -25,15 +28,40 @@
 <body>
     <!-- Add a main container that will contain all the elements that will appear on the screen -->
     <div class="main-container">
-        <!-- Add a big header in the center of the top part of the screen -->
-        <div class="prompt-container container-fluid text-center">
-            <div>
-                <h1 class="prompt" id="prompt-header">Lets Settle This Debate</h1>
-            </div>
-            <div class="mt-5 pt-5">
-                <button class="btn btn-light btn-block throw-dice-btn">THROW DICE</button>
+        <!-- Add a header prompt to the center of the screen -->
+        <div class="header-container">
+            <h1 class="header-element">LETS SETTLE THIS DEBATE</h1>
+        </div>
+
+        <!-- Add a container to print the outcome of the round -->
+        <div class="round-result-container">
+            <h3 id="round-result-prompt"></h3>
+        </div>
+
+        <!-- Add a container containing the images of the die and the players numbers {i.e, player 1 | player 2} -->
+        <div class="players-and-die container"> 
+            <div class="row">
+
+                <!-- Player 1 and their dice -->
+                <div class="player-one col-xs-6"> 
+                    <h5 class="player-name">Player 1</h5>
+                    <img id="player-one-dice-img" class="player-one-dice-img" src="../resources/images/dice6.png"></img>
+                </div>
+
+                <!-- Player 2 and their dice -->
+                <div class="player-two col-xs-6"> 
+                    <h5 class="player-name">Player 2</h5>
+                    <img id="player-two-dice-img" class="player-two-dice-img" src="../resources/images/dice6.png"></img>
+                </div>
+
             </div>
         </div>
+
+        <!-- Add a container that will contain the button to click which will throw both player's dice -->
+        <div class="throw-die-container"> 
+            <button type="button" id = "play-game-btn" class="btn btn-lg btn-primary play-game-btn" onclick="randomNumberGenerator()">PLAY</button>
+        </div>
+
     </div>
 </body>
 
