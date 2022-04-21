@@ -1,5 +1,0 @@
-Lecture Title: Life In Weeks Coding Challenge
----------------------------------------------
-Challenge description:
-You can find the description of the challenge on the udemy website. 
----------------------------------------------

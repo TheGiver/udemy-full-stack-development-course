@@ -1,9 +1,0 @@
-Lecture Title: Manipulating & Changing HTML Styles With JS
-----------------------------------
-Summary:
-In this lecture, we were given some tips on how we can change CSS of webpages via JS only. 
-I would recommend checking the DOM style documentation online. 
-----------------------------------
-Challenge:
-We were given a challenge to change the background color of the btn on the webpage to yellow 
-using JS only. The solution to this challenge is in the script 'script.js'

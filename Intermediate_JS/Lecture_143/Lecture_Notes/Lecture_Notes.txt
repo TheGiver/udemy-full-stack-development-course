@@ -1,6 +1,0 @@
-Lecture Title: For loops
-------------------------
-Notes:
-Since I am already aware of how for loops work and how they can be 
-declared, I will not be writing notes for it.
-------------------------

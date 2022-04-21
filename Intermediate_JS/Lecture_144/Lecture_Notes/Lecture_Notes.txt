@@ -1,7 +1,0 @@
-Lecture Title: Fibonacci Sequence Challenge
--------------------------------------------
-Task:
-In this lecture we were introduced to the idea of Fibonacci Sequence. 
-We were then told to create a program that would generate such sequence 
-given the number of elements to generate from that sequence. 
--------------------------------------------

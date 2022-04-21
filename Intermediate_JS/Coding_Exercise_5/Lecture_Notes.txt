@@ -1,7 +1,0 @@
-Lecture Title: BMI Calculator & Conditional Control Flow 
---------------------------------------------------------
-Requirement:
-For this challenge, we have been told that the BMI calculator function that
-we have developed earlier needs to return a different message depending
-on the numerical value returned by the formula. 
---------------------------------------------------------
