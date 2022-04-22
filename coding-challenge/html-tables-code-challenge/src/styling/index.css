@@ -1,0 +1,11 @@
+#profile-pic-div {
+    height: 1%;
+    width: 1%;
+}
+
+#profile-pic {
+    height: auto;
+    width: auto;
+    object-fit: cover;
+    border-radius: 50%;
+}
