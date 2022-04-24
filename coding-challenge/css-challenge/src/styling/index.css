@@ -1,0 +1,27 @@
+.initial-segment {
+    background-color: #d9eef5;
+}
+
+.cloud {
+    display: flex;
+    height: 1%;
+    width: 100%;
+}
+
+.upper-cloud {
+    justify-content: flex-end;
+}
+
+.bottom-cloud {
+    justify-content: flex-start;
+}
+
+.img {
+    height: 100%; 
+    width: auto;
+    object-fit: cover;
+}
+
+.name-position-div {
+    text-align: center;
+}
