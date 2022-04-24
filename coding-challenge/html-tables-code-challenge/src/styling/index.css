@@ -1,11 +1,42 @@
-#profile-pic-div {
-    height: 1%;
-    width: 1%;
+body {
+    padding-left: 1%;
 }
 
-#profile-pic {
+.segment-one {
+    padding: 3% 0% 3% 0%;
+}
+
+.profile-pic-div {
+    height: 10%;
+    width: 10%;
+}
+
+.profile-pic {
     height: auto;
-    width: auto;
-    object-fit: cover;
+    width: 100%;
+    object-fit: fill;
     border-radius: 50%;
+    float: left;
+}
+
+.wrapper {
+    overflow:hidden
+}
+
+.personal-info-div {
+    float: left;
+    padding-left: 3%;
+}
+
+table {
+    width: 100%;
+    border: 1px solid;
+}
+
+th, td {
+    border: 1px solid;
+}
+
+.checked-star {
+    color: orange;
 }
