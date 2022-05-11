@@ -1,8 +1,9 @@
 const btns = document.querySelectorAll("button");
 btns.forEach(btn => {
-    btn.addEventListener('click', buttonClickAlert)
+    btn.addEventListener('click', playSound)
 })
 
-function buttonClickAlert() {
-    alert("Button clicked")
+function playSound() {
+    let audio = new Audio("./resources/sounds/tom-1.mp3");
+    audio.play()
 }
