@@ -17,31 +17,31 @@ footer {
 }
 
 .w {
-
+  background-image: url("./resources/images/tom1.png");
 }
 
 .a {
-
+  background-image: url("./resources/images/tom2.png");
 }
 
 .s {
-
+  background-image: url("./resources/images/tom3.png");
 }
 
 .d {
-
+  background-image: url("./resources/images/tom4.png");
 }
 
 .j {
-
+  background-image: url("./resources/images/snare.png");
 }
 
 .k {
-
+  background-image: url("./resources/images/crash.png");
 }
 
 .l {
-
+  background-image: url("./resources/images/kick.png");
 }
 
 .set {
