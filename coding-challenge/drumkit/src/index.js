@@ -2,11 +2,13 @@
 const btns = document.querySelectorAll("button");
 btns.forEach(btn => btn.addEventListener("click", function() {
     playSound(btn.textContent);
+    addAnimation(btn.textContent);
 }))
 
 // detect keyboard clicks
 document.addEventListener("keydown", function(evt){
     playSound(evt.key);
+    addAnimation(evt.key);
 })
 
 function playSound(buttonTxtValue) {
@@ -50,4 +52,15 @@ function playSound(buttonTxtValue) {
         default:
             console.log("key does not map to an audio file")
     }
+}
+
+function addAnimation(buttonTxtValue) {
+    var clickedBtn = document.querySelector("." + buttonTxtValue);
+    if(clickedBtn !== null) {
+        clickedBtn.classList.add("pressed");
+        setTimeout(function() {
+            clickedBtn.classList.remove("pressed");
+        }, 100)
+    } 
+
 }
