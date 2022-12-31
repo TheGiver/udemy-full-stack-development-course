@@ -2,36 +2,48 @@
 document.addEventListener("keypress", launchGame);
 
 // Global constant variables
-let level = 0;
+let level = 1;
 const MAX_LEVEL = 3;
 const BETWEENN_LEVEL_REST_WAIT_TIME = 2000; // 2 second wait time
 const MEMORIZE_THE_PATTERN_WAIT_TIME = 1000; // 1 second preparation to memorize the pattern
 let isGameOver = false;
 
 function launchGame() {
-    while(!isGameOver) {
-        level += 1;
-        // present the current level
+    let buttons = getAllButtons();
+    let expectedSequence = [];
+    onClick(buttons, expectedSequence);
+    while(!isGameOver && level <= MAX_LEVEL) {
         $('#level-title').html('LEVEL ' + level);
-
         setTimeout(() => {$('#level-title').html('MEMORIZE THE PATTERN')}, BETWEENN_LEVEL_REST_WAIT_TIME);
-        
-        // generate a random pattern which increases in difficulty based on the level
-        // the higher the level the more buttons the user has to select
-        generatePattern(level);
-
-        isGameOver = true;    
+        expectedSequence = generatePattern(buttons, level);
+        $('#level-title').html('PUT YOUR MEMORY TO THE TEST...');
+        level += 1;  
     }
 }
 
 function getAllButtons() {
-    var buttons = $('.btn').map(function() {
+    return buttons = $('.btn').map(function() {
         return this;
     }).get();
-    console.log(buttons)
 }
 
-function generatePattern(level) {
-    // 
-    getAllButtons();
+function generatePattern(buttons, level) {
+    let sequence = []; 
+    for(let i = 0; i < level; i++) {
+        let index = Math.floor(Math.random() * buttons.length);
+        let pressedButton = buttons[index];
+        $('#' + pressedButton.id).fadeOut(100).fadeIn(100);
+        sequence.push(pressedButton);
+    }
+    return sequence;
+}
+
+function onClick(buttons, expectedSequence) {
+    $.each(buttons, function(key, val) {
+        val.addEventListener('click', function() {
+            $('#' + val.id).fadeOut(100).fadeIn(100);
+            if(expectedSequence.length == 0) return;
+            if(expectedSequence.pop().id !== val.id) throw 'Wrong guess';
+        });
+    });
 }
