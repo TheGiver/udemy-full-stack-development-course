@@ -86,7 +86,7 @@ function generatePattern(buttons, level) {
     for(let i = 0; i < level; i++) {
         let index = Math.floor(Math.random() * buttons.length);
         let pressedButton = buttons[index];
-        $('#' + pressedButton.id).fadeOut(150).fadeIn(150);
+        animateBtnClick(pressedButton.id);
         sequence.push(pressedButton);
     }
     return sequence;
@@ -102,6 +102,21 @@ function getAllButtons() {
 // Trigger that works every time a user clicks a button and checks the button clicked against the 
 // generated sequence
 $('.btn').click(function() {
-    // find the color of the button
-    
+    animateBtnClick(this.id);
+    let clickedBtn = this.id; 
+    let expectedBtn = generatedSequence.pop();
+    if(clickedBtn !== expectedBtn) {    
+        startOver();
+    } 
 });
+
+function startOver() {
+    $('#level-title').text('GAME OVER!');
+    level = 1;
+    generatedSequence = [];
+    launchGame();
+}
+
+function animateBtnClick(btnId) {
+    $('#' + btnId).fadeOut(150).fadeIn(150);
+}
